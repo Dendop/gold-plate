@@ -2,11 +2,13 @@ pipeline{
     agent any
     stages{
 
+
         stage("Clean up containers"){
             steps{
                 sh "docker rm -f flask-app || true"
                 sh "docker rm -f nginx || true"
                 // sh "docker container prune -f"
+                //test text for dep
             }
         }
         stage("Create a network"){
