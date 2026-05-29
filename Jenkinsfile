@@ -16,7 +16,7 @@ pipeline {
         ORIGINAL_IMAGE = "flask-app:${BUILD_NUMBER}-original"
         SLIM_IMAGE = "flask-app:${BUILD_NUMBER}-slim"
         NGINX_IMAGE = "mynginx:${BUILD_NUMBER}"
-        DOCKERHUB_REPO = "chrisreeves1/flask-app"
+        DOCKERHUB_REPO = "skipfor now"
 
     }
 
