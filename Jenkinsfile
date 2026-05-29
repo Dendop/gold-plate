@@ -6,7 +6,7 @@ pipeline{
             steps{
                 sh "docker rm -f flask-app || true"
                 sh "docker rm -f nginx || true"
-                sh "docker container prune -f"
+                // sh "docker container prune -f"
             }
         }
         stage("Create a network"){
